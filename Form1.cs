@@ -26,6 +26,8 @@ namespace zilelot
         static int[] shipCount2 = { 0, 0, 0, 0, 0 };
         static int setstatus = 0;
         static int turn = 2;
+        static Point?[] player1points;
+        static Point?[] player2points;
         TableLayoutPanelCellPosition hitguess;
         public Form1()
         {
@@ -513,6 +515,7 @@ namespace zilelot
                 if (shipcount == 1)
                 {
                     shipCount1[ship_lg - 1] = 1;
+                    player1points[ship_lg - 1] = cellPos;
                 }
                 else
                 {
