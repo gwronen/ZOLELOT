@@ -507,7 +507,7 @@ namespace zilelot
                     {
                         Button b = (Button)t_myships.GetControlFromPosition(cellPos.Value.X, cellPos.Value.Y + r);
                         b.Text = "O";
-   
+   //push
                     }
                 }
 
